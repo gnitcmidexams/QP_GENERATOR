@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mid Paper Generator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #ffffff;
+            padding: 15px 30px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo {
+            height: 50px;
+        }
+
+        .navbar h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #d32f2f;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 40px auto;
+            text-align: center;
+        }
+
+        main h2 {
+            font-size: 28pt;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .button-container a {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 16pt;
+            font-weight: bold;
+            text-decoration: none;
+            color: #000;
+            border: 2px solid black;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .button-container a:hover {
+            background-color: #000;
+            color: #fff;
+        }
+
+        @media (max-width: 600px) {
+
+            .button-container {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .button-container a {
+                width: 100%;
+                padding: 12px;
+                font-size: 14pt;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="header-content">
+            <img src="logo.jpg" alt="Logo" class="logo">
+            <h1>GURUNANAK INSTITUTIONS TECHNICAL CAMPUS</h1>
+        </div>
+    </nav>
+    <main>
+        <h2>Mid Paper Generator</h2>
+        <div class="button-container">
+            <a href="https://.netlify.app/" target="_blank">Subjective</a>
+            <a href="https://objqpg.netlify.app/" target="_blank">Objective</a>
+        </div>
+    </main>
+</body>
+</html>
